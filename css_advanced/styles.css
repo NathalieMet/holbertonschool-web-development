@@ -4,6 +4,7 @@
 	background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+	height: 1093px;
 }
 
 header {
@@ -87,6 +88,10 @@ header img {
 	color: #C271FF;
 }
 
+.down-banner {
+	margin-top: 220px;
+}
+
 .banner-avatars {
 	display: flex;
 	flex-direction: row;
@@ -129,4 +134,51 @@ header img {
 .strip {
 	background-color: #0B192C;
 	height:100px;
+}
+
+#quote {
+	background-color: #C271FF;
+}
+
+.quote-block {
+	display: flex;
+	width: 65%;
+	height: 392px;
+	justify-content: center;
+	margin-left: auto;
+	margin-right: auto;
+	align-items: center;
+	gap: 40px;
+
+}
+
+.author-block {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 22px;
+	text-align: left;
+}
+
+.quote-block img {
+	width: 160px;
+	height: 160px;
+	border-radius: 50%;
+}
+
+.author-block blockquote {
+	margin-left: 0px;
+	margin-bottom: 30px;
+}
+
+.author-block cite {
+	font-weight: bold;
+	font-style: normal;
+
+}
+
+.author-block p {
+	font-style: italic;
+	margin-top: 10px;
 }
