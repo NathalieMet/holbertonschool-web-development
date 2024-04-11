@@ -182,3 +182,41 @@ header img {
 	font-style: italic;
 	margin-top: 10px;
 }
+
+#videos h1 {
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 32px;
+	text-align: center;
+	font-weight: 100;
+}
+
+#videos h1 span {
+	color: #C271FF;
+	font-weight: bold;
+}
+
+.video-container {
+	display: flex;
+}
+
+.video-box-1, .video-box-2, .video-box-3, .video-box-4 {
+	display: flex;
+	flex-direction: column;
+}
+
+.video-box-1-middle, .video-box-2-middle, .video-box-3-middle, .video-box-4-middle {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.video-box-1-bottom, .video-box-2-bottom, .video-box-3-bottom, .video-box-4-bottom {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.video-box-1-middle, .video-box-2-middle, .video-box-3-middle, .video-box-4-middle img {
+	width: 255px;
+	height: 154px;
+}
