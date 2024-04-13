@@ -274,3 +274,69 @@ header img {
 	gap: 10px;
 	margin-top: 5px;
 }
+
+#membership {
+	background-color: #071629;
+	color: white;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-top: 50px;
+	margin-top: 100px;
+	height: 502px;
+}
+
+#membership h1{
+	font-size: 32px;
+	font-weight: lighter;
+	text-align: center;
+	margin-bottom: 90px;
+}
+
+#membership h1 span{
+	color: #C271FF;
+	font-weight: bold;
+}
+
+.membership-container {
+	display: flex;
+	justify-content: center;
+}
+
+.membership-box {
+	display: flex;
+	flex-direction: column;
+	width: 257px;
+	height: 153px;
+	text-align: center;
+}
+
+.membership-box img {
+	width: 44px;
+	height: 35px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.membership-box h2 {
+	font-size: 18px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+.membership-box p {
+	font-size: 14px;
+	line-height: 25px;
+}
+
+#membership button {
+	height: 44px;
+	background-color: #C271FF;
+	border: none;
+	color: white;
+	font-weight: 600;
+	font-size: 14px;
+	border-radius: 24px;
+	width: 200px;
+	margin-left: 650px;
+	margin-top: 90px;
+	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
