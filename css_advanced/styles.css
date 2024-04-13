@@ -187,7 +187,9 @@ header img {
 	font-family: 'Source Sans Pro', sans-serif;
 	font-size: 32px;
 	text-align: center;
-	font-weight: 100;
+	font-weight: lighter;
+	margin-top: 90px;
+	margin-bottom: 90px;
 }
 
 #videos h1 span {
@@ -198,29 +200,77 @@ header img {
 .videos-container {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
-	margin-left: 150px;
-	margin-right: 150px;
+	justify-content: space-between;
+	margin-left: 170px;
+	margin-right: 170px;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 
 .video-box-1, .video-box-2, .video-box-3, .video-box-4 {
 	display: flex;
 	flex-direction: column;
+	width: 255px;
 }
 
 .video-box-1-middle, .video-box-2-middle, .video-box-3-middle, .video-box-4-middle {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: left;
+	margin-left: 10px;
+	gap: 12px;
+	align-items: center;
+	height: 30px;
 }
 
 .video-box-1-bottom, .video-box-2-bottom, .video-box-3-bottom, .video-box-4-bottom {
 	display: flex;
 	flex-direction: row;
-	justify-content: center;
+	justify-content: left;
+	margin-left: 10px;
+	gap: 70px;
+	align-items: center;
 }
 
 [class^="video-box-"] .video-mini {
 	width: 255px;
 	height: 154px;
+}
+
+.videos-container h2 {
+	font-size: 16px;
+	font-weight: bold;
+	margin-left: 10px;
+	margin-bottom: 0px;
+	margin-top: 20px;
+}
+
+.videos-container .description {
+	font-size: 14px;;
+	color: #838A94;
+	margin-left: 10px;
+	line-height: 25px;
+	margin-bottom: 15px;
+	margin-top: 10px;
+}
+
+.videos-container h3, .time {
+	font-size: 14px;
+	font-weight: 600;
+	color: #C271FF;
+}
+
+[class^="video-box-"] img {
+	width: 30px;
+	height: 30px;
+}
+
+.rating img {
+	width: 15px;
+	height: 15px;
+}
+
+.rating {
+	display: flex;
+	gap: 10px;
+	margin-top: 5px;
 }
