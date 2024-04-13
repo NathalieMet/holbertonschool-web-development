@@ -195,8 +195,12 @@ header img {
 	font-weight: bold;
 }
 
-.video-container {
+.videos-container {
 	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	margin-left: 150px;
+	margin-right: 150px;
 }
 
 .video-box-1, .video-box-2, .video-box-3, .video-box-4 {
@@ -216,7 +220,7 @@ header img {
 	justify-content: center;
 }
 
-.video-box-1-middle, .video-box-2-middle, .video-box-3-middle, .video-box-4-middle img {
+[class^="video-box-"] .video-mini {
 	width: 255px;
 	height: 154px;
 }
