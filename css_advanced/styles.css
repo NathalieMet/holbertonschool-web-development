@@ -340,3 +340,83 @@ header img {
 	margin-top: 90px;
 	box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
 }
+
+#FAQ {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+#FAQ h1 {
+	font-size: 60px;
+	font-weight: lighter;
+	text-align: center;
+	padding-top: 20px;
+	margin-bottom: 80px;
+}
+
+.FAQ-container {
+	display: flex;
+	flex-direction: column;
+}
+
+.row {
+	display: flex;
+	justify-content: space-around;
+	margin-left: 190px;
+	margin-right: 190px;
+	margin-bottom: 100px;
+}
+
+.item {
+	display: flex;
+	flex-direction: column;
+	width: 350px;
+	height: 242px;
+}
+
+.item h2 {
+	font-size: 16px;
+	font-weight: bold;
+}
+
+.item p {
+	font-size: 14px;
+	color: #838A94;
+	line-height: 25px;
+}
+
+footer p {
+	text-align: center;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12px;
+	margin-top: 70px;
+	color: #838A94;
+}
+
+footer {
+	background-color: #071629;
+	height: 249px;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+}
+
+.logos img{
+	width: 30px;
+	height: 30px;
+}
+
+.footer-logo {
+	width: 169px;
+	height: 30px;
+}
+
+.logos {
+	display: flex;
+	gap: 20px;
+}
